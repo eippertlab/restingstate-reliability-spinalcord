@@ -1,8 +1,8 @@
 # restingstate-reliability-spinalcord
 
-This repository is associated with the manuscript [" "]() and the dataset (https://openneuro.org/datasets/ds004386; note that the dataset is currently only accessible to reviewers, but will be made publicly available when the manuscript is published).
+This repository is associated with the preprint [" "]() and the corresponding dataset (https://openneuro.org/datasets/ds004386; note that the dataset is currently only accessible to reviewers, but will be made publicly available when the manuscript is published in a journal).
 
-This repository contains the preprocessing and analysis code needed to assess the reliability of spinal cord resting-state networks as presented in above-mentioned manuscript. Note that the functions are organized according to the organization of the manuscript.  
+This repository contains the preprocessing and analysis code needed to assess the reliability of spinal cord resting-state networks as presented in above-mentioned preprint. Note that the functions are organized according to the organization of the manuscript.  
 
 ## Required software
 - [MATLAB](https://www.mathworks.com/products/matlab.html), version 2018a or higher
