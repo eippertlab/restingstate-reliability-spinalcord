@@ -1,8 +1,9 @@
 # restingstate-reliability-spinalcord
 
-This repository is associated with the preprint [" "]() and the corresponding dataset (https://openneuro.org/datasets/ds004386; note that the dataset is currently only accessible to reviewers, but will be made publicly available when the manuscript is published in a journal).
+This repository is associated with the following [manuscript](https://doi.org/10.1016/j.neuroimage.2023.12015
+) and the corresponding dataset (https://openneuro.org/datasets/ds004386.
 
-This repository contains the preprocessing and analysis code needed to assess the reliability of spinal cord resting-state networks as presented in above-mentioned preprint. Note that the functions are organized according to the organization of the manuscript.  
+This repository contains the preprocessing and analysis code needed to assess the reliability of spinal cord resting-state networks as presented in above-mentioned manuscript. Note that the functions are organized according to the organization of the manuscript.  
 
 ## Required software
 - [MATLAB](https://www.mathworks.com/products/matlab.html), version 2018a or higher
@@ -27,3 +28,7 @@ Jonas (2021). Violin Plots for plotting multiple distributions (distributionPlot
 
 ## Preprocessing & Analysis
 For preprocessing and calculation of results, [SCT version 4.2.2](https://github.com/spinalcordtoolbox/spinalcordtoolbox/releases/tag/4.2.2), FSL version 6.0.3, and MATLAB version 2021a were used.
+
+## References
+- Kaptan, M., Horn, U., Vannesjo, S. J., Mildner, T., Weiskopf, N., Finsterbusch, J., Brooks, J. C. W., & Eippert, F. (2023). Reliability of resting-state functional connectivity in the human spinal cord: Assessing the impact of distinct noise sources. NeuroImage, 120152. https://doi.org/10.1016/j.neuroimage.2023.120152
+- https://openneuro.org/datasets/ds004386
