@@ -308,6 +308,9 @@ Lines = 0
 
 REL_helper_BarPlots(dataType,datasets,subPlot, noGroup, Lines ,XLabels, YLabel,yLims,figTitle,printMode,printPath)
 
+
+
+
 for f = 1:numel(fileNames)
    
     tmp = squeeze(EXPVAR(:,f,:));
@@ -434,40 +437,42 @@ end
 
 [eSmooth_autoMax, ~] = thermalDenoise_3dFWMHx(outDir,subjects,'func/auto_max.feat/stats/',{'res4d.nii.gz'},...
     0, ...
-    0, 0, '', '', 0, '',0,0)
+    0, 1, 'func/' , 'auto_moco2_mean_seg.nii.gz', 0, '_cordmask',0,0)
 
 [eSmooth_autoThermal, ~] = thermalDenoise_3dFWMHx(outDir,subjects,'func/auto_denoised_max.feat/stats/',{'res4d.nii.gz'},...
     0, ...
-    0, 0, '', '', 0,'',0,0)
+    0, 1, 'func/' , 'auto_moco2_mean_seg.nii.gz', 0, '_cordmask',0,0)
 
 [eSmooth_manualMax, ~] = thermalDenoise_3dFWMHx(outDir,subjects,'func/manual_max.feat/stats/',{'res4d.nii.gz'},...
     0, ...
-    0, 0, '', '', 0,'',0,0)
+    0, 1, 'func/' , 'manual_moco2_mean_seg.nii.gz', 0, '_cordmask',0,0)
 
 
 [eSmooth_manualThermal, ~] = thermalDenoise_3dFWMHx(outDir,subjects,'func/manual_denoised_max.feat/stats/',{'res4d.nii.gz'},...
     0, ...
-    0, 0, '', '', 0,'',0,0)
+    0, 1, 'func/' , 'manual_moco2_mean_seg.nii.gz', 0, '_cordmask',0,0)
 
 
 [eSmooth_AutoSmooth2, ~] = thermalDenoise_3dFWMHx(outDir,subjects,'func/auto_max_smooth.feat/stats/',{'res4d.nii.gz'},...
     0, ...
-    0, 0, '', '', 0,'',0,0)
+    0, 1, 'func/' , 'auto_moco2_mean_seg.nii.gz', 0, '_cordmask',0,0)
 
 
 [eSmooth_AutoSmooth4, ~] = thermalDenoise_3dFWMHx(outDir,subjects,'func/auto_max_smooth4.feat/stats/',{'res4d.nii.gz'},...
     0, ...
-    0, 0, '', '', 0,'',0,0)
+    0, 1, 'func/' , 'auto_moco2_mean_seg.nii.gz', 0, '_cordmask',0,0)
 
 
 [eSmooth_ManualSmooth2, ~] = thermalDenoise_3dFWMHx(outDir,subjects,'func/manual_max_smooth.feat/stats/',{'res4d.nii.gz'},...
     0, ...
-    0, 0, '', '', 0,'',0,0)
+       0, 1, 'func/' , 'manual_moco2_mean_seg.nii.gz', 0, '_cordmask',0,0)
+
 
 
 [eSmooth_ManualSmooth4, ~] = thermalDenoise_3dFWMHx(outDir,subjects,'func/manual_max_smooth4.feat/stats/',{'res4d.nii.gz'},...
     0, ...
-    0, 0, '', '', 0,'',0,0)
+       0, 1, 'func/' , 'manual_moco2_mean_seg.nii.gz', 0, '_cordmask',0,0)
+
 
 
 OnlyMax = (eSmooth_autoMax+ eSmooth_manualMax)./2;
