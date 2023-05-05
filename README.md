@@ -1,6 +1,6 @@
 # restingstate-reliability-spinalcord
 
-This repository is associated with the following [manuscript](https://doi.org/10.1016/j.neuroimage.2023.12015) and the corresponding [dataset](https://openneuro.org/datasets/ds004386).
+This repository is associated with the following [manuscript](https://www.sciencedirect.com/science/article/pii/S1053811923003038?via%3Dihub#sec0036) and the corresponding [dataset](https://openneuro.org/datasets/ds004386).
 
 This repository contains the preprocessing and analysis code needed to assess the reliability of spinal cord resting-state networks as presented in above-mentioned manuscript. Note that the functions are organized according to the organization of the manuscript.  
 
